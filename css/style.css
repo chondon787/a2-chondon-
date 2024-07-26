@@ -1,0 +1,471 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+
+*{
+  margin: 0;
+  padding: 0;
+}
+  .nav-title{
+    font-size: 40px;
+    font-weight: 800;
+    font-style: italic;
+    color: #E6533C;
+  }
+
+  nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 120px;
+  }
+  .nav-list{
+
+        display: flex;
+        list-style: none;
+
+  }
+
+  .nav-list li a{
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 50px;
+    color: white;
+  }
+
+  #home-bg{
+    background-color: #E6533C;
+    padding: 10px 15px; 
+    border-radius: 100px;
+  }
+
+  /* header banner styls */
+
+
+  .header-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 120px;
+     
+  }
+.header-banner-texts{
+  
+}
+
+  #banner-title{
+    font-size: 65px; 
+    color: white;
+    margin-bottom: 10px;
+  }
+#banner-texts{
+    color: gray;
+}
+  .header-linear-bg{
+    background-image: linear-gradient(#111111,#343434,#111111);
+   max-width: 1440px;
+    margin: 0 auto;
+  }
+
+
+  .header-banner-frist-button{
+    padding: 14px 50px;
+    background-color: #E6533C;
+    border: none;
+    color: white;
+    border-radius: 100px;
+    font-size: 16px;
+  }
+
+  .header-banner-seound-button{
+    padding: 14px 50px;
+    background-color: #222222; 
+    font-size: 16px;
+    border: 2px solid wheat;
+    color: white;
+    border-radius: 100px;
+  }
+
+  .header-banner-button{
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+  }
+
+
+  .frist-banner-box{
+    padding: 20px 0px;  
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    background-color: #222222;
+    width: 200px;
+    border: 1px solid rgba(128, 128, 128, 0.473);
+    position: absolute;
+    bottom: 80px;
+    right: 250px;
+  }
+.banner-img img{
+  z-index: 4;
+}
+  .red{
+    background-color: #E6533C;
+    padding: 18px;
+    border-radius: 50%;
+    width: 3px;
+  }
+
+ 
+
+  .header-banner-image{
+    position: relative;
+  }
+  .seound-banner-box{
+    padding: 18px 0px; 
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    justify-content: space-evenly;
+    background-color: rgba(128, 128, 128, 0.24);
+    width: 200px;
+    position: absolute;
+    top: 120px;
+    right: -80px;
+  }
+
+
+  .Habits-titles{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+  }
+  .Habits-texts{
+    text-align: center;
+    color: white;
+  }
+
+
+  .frist-habits img{
+    border-radius: 50%;
+  }
+  .habits-images{
+    padding: 20px 200px;
+  }
+
+  .habits-images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .habits-images p, h3{
+     text-align: center;
+     color: white
+     
+  }
+
+  main{
+    background-color: black;  
+    padding: 120px 0;
+    max-width: 1440px;
+    margin: 0px auto;
+    
+  
+  }
+
+  .frist-habits p{
+    color: #222222;
+  }
+  
+
+
+    /* main banner section */
+  .run{
+    display: flex;
+    align-items: center; 
+    padding: 50px 50px;
+    justify-content: space-between; 
+    background-color: rgba(128, 128, 128, 0.24); 
+    border-radius: 30px;
+  }
+
+  .head-run{
+ 
+    padding: 50px 100px;
+ 
+  }
+
+  .run-texts{
+     color: rgba(218, 217, 217, 0.808);
+  }
+
+
+    .run-btn{
+    margin-top: 20px;
+    }
+  .run-img img{
+    border-radius: 30px;
+    height: 300px;
+  }
+
+  .run-textes{
+    margin-top: 20px;
+  }
+
+
+    /* calculator section */
+
+    .form-calculetor-main-tittle{
+        margin-top: 60px;
+        padding: 50px;
+        margin: 0px auto;
+        
+    }
+.titeleses{
+  text-align: center;
+}
+    .calculator-title{
+        font-size: 50px;
+        color: white;
+        text-align: center;
+    }
+    .calculator-textss{
+        text-align: ;
+        color: rgba(255, 255, 255, 0.5);
+    }
+    .Calculator-texts{
+        padding: 30px;
+    }
+    .calculator-form-title{
+        color: white;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    
+    table th,td{
+        border: 2px solid rgba(255, 255, 255, 0.5);
+        padding: 10px 50px;
+        border-collapse: collapse;
+        text-align: left;
+    }
+    table th{
+
+    }
+    table{
+        
+        border-collapse: collapse;
+    }
+    .calculator-table-title{
+        font-size: 30px;
+        color: white;
+        margin-bottom: 25px;
+    }
+
+
+    input[type='text']{
+      padding: 15px 50px;
+      background-color: #666666;
+      color: white;
+      border-radius: 12px;
+    }
+    input[type='text']::placeholder{
+      
+      color: white;
+    }
+
+
+    form{
+      display: grid;
+      gap: 10px;
+      grid-template-columns: repeat(2,1fr);
+      margin-top: 10px;
+    }
+     
+        
+    .form-calculetor-section{
+      display: flex;
+      justify-content: space-between;
+      background-color: rgba(34, 34, 34, 1);
+      padding: 120px;
+    }
+
+    #op-one{
+      padding: 15px 130px;
+      border-radius: 12px;
+      background-color: #666666;
+      color: white;
+    }
+    #op-tow{
+      padding: 15px 230px;
+      border-radius: 12px;
+      background-color: #666666;
+      color: white;
+     
+    }
+    .grid-span{
+      grid-column: span 2;
+    }
+    /* .div-4 select{
+        padding: 25px;
+
+
+    } */
+     
+
+  @media screen and (max-width:768px) {
+    nav{
+       flex-direction: column; 
+       gap: 30px;
+        
+      }
+
+      .nav-list{
+        flex-direction: column;
+        gap: 50px;
+      }
+
+      .header-banner{
+        flex-direction: column;
+      }
+
+      #banner-title{
+        font-size: 30px;
+        text-align: left;
+      }
+
+      #banner-texts{
+        text-align: left;
+      }
+     
+      
+ 
+
+      .frist-banner-box{ 
+        padding: 15px 0;
+        position: absolute;
+        bottom: 250px;
+        right:195px;
+         font-size: 14px;
+         width: 150px;
+      }
+      .red{
+        background-color: #E6533C;
+        padding: 10px;
+        border-radius: 50%;
+        width: px;
+      }
+      .seound-banner-box{ 
+        padding: 0;
+        width: 150px;
+        position: absolute;
+        font-size: 14px;
+        top: 60px;
+        right: 10px;
+        height: 80px;
+      }
+      .sizes{
+        font-size: 28px !important;
+         
+      }
+
+      .header-banner{
+         
+        padding: 0px 10px;
+         
+      }
+      .header-banner-frist-button{
+        padding: 12px 15px;
+        background-color: #E6533C;
+        border: none;
+        color: white;
+        border-radius: 100px;
+        font-size: 16px;
+      }
+      .header-banner-seound-button{
+        padding:12px 30px;
+      
+      }
+      .header-banner-image{
+        margin-top: 50px;
+      }
+
+      .habits-images{
+        flex-direction: column;
+        gap: 30px;
+        padding: 20px 20px;
+      }
+      .run{
+        flex-direction: column;
+        gap: 30px;
+      }
+      .run-img img{
+       
+        height: 200px;
+      }
+
+      .run-btn button{
+        width: 100%;
+      }
+
+      .head-run{
+ 
+        padding: 50px 10px;
+     
+      
+    
+  }
+
+  #run-titles{
+    font-size: 30px !important;
+  }
+
+  .form-calculetor-section{
+    flex-direction: column;
+  }
+
+     input[type='text']{
+      padding: 15px 50px;
+      background-color: #666666;
+      color: white;
+      border-radius: 12px;
+    }
+
+    .calculator-textss{
+      text-align: left;
+      margin-left: 15px;
+    }
+
+    .calculator-table-title{
+    font-size: 18px;
+  }
+
+  .form-calculetor-section{
+ 
+    padding: 50px;
+  }
+  table{
+    margin-bottom: 50px;
+  }
+
+  .calculator-textss{
+    text-align: left;
+  }
+  input[type='text']{
+    padding: 15px 20px;
+    background-color: #666666;
+    color: white;
+    border-radius: 12px;
+  }
+ 
+}
