@@ -452,7 +452,7 @@ body{
 
   .form-calculetor-section{
  
-    padding: 50px;
+    padding: 20px;
   }
   table{
     margin-bottom: 50px;
@@ -462,7 +462,7 @@ body{
     text-align: left;
   }
   input[type='text']{
-    padding: 15px 5px;
+    padding: 15px 0px;
     background-color: #666666;
     color: white;
     border-radius: 12px;
