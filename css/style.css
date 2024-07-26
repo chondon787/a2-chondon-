@@ -321,8 +321,66 @@ body{
 
 
     } */
-     
 
+    .team-section{
+     
+      padding:  50px 200px;
+      background-color: ;
+    }
+
+    .team-background{
+     background-color: #222222;
+     padding: 20px;
+     border-radius: 15px;
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap: 20px;
+    }
+     #itaclic-text{
+      font-family: "Playwrite AT", cursive;
+      font-optical-sizing: auto;
+     }
+
+    /* footer section */
+    footer{
+      background-color:#111111;
+      padding: 50px 0;
+      max-width: 1440px;
+      margin: 0 auto;
+    }
+    .footer-main-div{
+      
+      display: flex;
+      /* gap: 50px; */
+      justify-content: space-evenly;
+      color: #666666;
+      padding: 70px;
+    }
+    ul li{
+      list-style: none;
+    }
+    ul{
+      line-height: 30px;
+    }
+
+    .footer-title{
+      font-size: 50px;
+      font-style: italic;
+      color: #E6533C;
+    }
+.footer-contant{
+  color: #666666;
+}
+
+.ul-titles{
+  margin-bottom: 15px;
+  margin-right: 50px;
+}
+
+.footer-border{
+  border: 2px solid #666666;
+  margin-bottom: 50px;
+}
   @media screen and (max-width:768px) {
     nav{
        flex-direction: column; 
@@ -469,7 +527,7 @@ body{
   }
 
   #op-tow{
-    padding: 15px 30px;
+    padding: 15px 100px;
  
    
   }
@@ -487,4 +545,24 @@ body{
     padding: 20px 50px;
   }
  
+  .team-background{
+grid-template-columns: repeat(1, 1fr);
+   }
+
+   .team-section{
+     
+    padding:  50px 20px;
+  
+  }
+
+  .footer-main-div{
+     gap: 30px;
+  flex-direction: column;
+     
+  }
+
+  .ul-titles{
+    text-align: left;
+  }
+    
 }
