@@ -30,7 +30,9 @@ body{
 
         display: flex;
         list-style: none;
-
+        border: 1px solid #343434;
+        padding: 5px 0px;
+        border-radius: 20px;
   }
 
   .nav-list li a{
@@ -69,7 +71,7 @@ body{
     color: gray;
 }
   .header-linear-bg{
-    background-image: linear-gradient(#111111,#343434,#111111);
+    background-image: linear-gradient(#111111,#343434,#111111,black);
    max-width: 1440px;
     margin: 0 auto;
   }
@@ -141,16 +143,21 @@ body{
     right: -80px;
   }
 
-
+/* hebit- main -section */
+ .Habits{
+margin: 60px auto;
+ }
   .Habits-titles{
     text-align: center;
     color: white;
     font-size: 50px;
     font-weight: bold;
+    
   }
   .Habits-texts{
     text-align: center;
-    color: white;
+    color:#666666;
+    margin-top: 10px;
   }
 
 
@@ -159,6 +166,7 @@ body{
   }
   .habits-images{
     padding: 20px 200px;
+   
   }
 
   .habits-images{
@@ -166,17 +174,19 @@ body{
     justify-content: space-between;
     align-items: center;
     margin-top: 50px;
+    
+    
   }
   
-  .habits-images p, h3{
-     text-align: center;
+  .circle-top{
+     /* text-align: center; */
      color: white
      
   }
 
   main{
     background-color: black;  
-    padding: 120px 0;
+    padding: 120px 0px;
     max-width: 1440px;
     margin: 0px auto;
     
@@ -184,9 +194,17 @@ body{
   }
 
   .frist-habits p{
-    color: #222222;
+    color:#666666;
+   
+    
   }
-  
+  .frist-habits{
+    text-align: center;
+  }
+  .circle-top{
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
 
 
     /* main banner section */
@@ -219,8 +237,9 @@ body{
   }
 
   .run-textes{
-    margin-top: 20px;
+    margin-top: 20px auto;
   }
+  
 
 
     /* calculator section */
@@ -242,6 +261,7 @@ body{
     .calculator-textss{
         text-align: ;
         color: rgba(255, 255, 255, 0.5);
+        margin-top: 10px;
     }
     .Calculator-texts{
         padding: 30px;
@@ -344,7 +364,7 @@ body{
     /* footer section */
     footer{
       background-color:#111111;
-      padding: 50px 0;
+      padding: 40px 0;
       max-width: 1440px;
       margin: 0 auto;
     }
@@ -354,7 +374,7 @@ body{
       /* gap: 50px; */
       justify-content: space-evenly;
       color: #666666;
-      padding: 70px;
+      padding: 40px;
     }
     ul li{
       list-style: none;
@@ -368,19 +388,38 @@ body{
       font-style: italic;
       color: #E6533C;
     }
+    .footer-main-contant{
+      color: #666666;
+      margin-top: 20px;
+    }
 .footer-contant{
   color: #666666;
+   text-align: center;
+   
+   margin-top:40px;
+
 }
 
 .ul-titles{
   margin-bottom: 15px;
   margin-right: 50px;
+  color: white;
+  font-size: 32px;
+  font-weight: bold;
 }
 
 .footer-border{
-  border: 2px solid #666666;
-  margin-bottom: 50px;
-}
+  border: 2px solid #1d1c1c;
+  margin-bottom: 5px;
+ 
+ }
+ .border-area{
+  width: 1060px;
+  margin:0px auto; 
+  
+ }
+ 
+  
   @media screen and (max-width:768px) {
     nav{
        flex-direction: column; 
@@ -391,6 +430,7 @@ body{
       .nav-list{
         flex-direction: column;
         gap: 50px;
+        border: none;
       }
 
       .header-banner{
@@ -497,11 +537,17 @@ body{
       background-color: #666666;
       color: white;
       border-radius: 12px;
-    }
 
+    }
+     
+    .calculator-title{
+      margin-left: 0px;
+      font-size: 32px;
+      font-weight: bold;
+    }
     .calculator-textss{
-      text-align: left;
-      margin-left: 15px;
+      
+      margin-left:0px;
     }
 
     .calculator-table-title{
@@ -517,7 +563,7 @@ body{
   }
 
   .calculator-textss{
-    text-align: left;
+    margin-left:0px;
   }
   input[type='text']{
     padding: 15px 0px;
@@ -554,15 +600,12 @@ grid-template-columns: repeat(1, 1fr);
     padding:  50px 20px;
   
   }
-
-  .footer-main-div{
-     gap: 30px;
-  flex-direction: column;
-     
-  }
-
-  .ul-titles{
-    text-align: left;
+ .footer-main-div{
+   flex-direction: column;
+   gap: 30px;
+ }
+  .border-area{
+    max-width: 100%;
   }
     
 }
