@@ -63,7 +63,7 @@ body{
 }
 
   #banner-title{
-    font-size: 65px; 
+    font-size: 78px; 
     color: white;
     margin-bottom: 10px;
   }
@@ -347,6 +347,11 @@ margin: 60px auto;
       padding:  50px 200px;
       background-color: ;
     }
+    .team-paragraph{
+      color: #666666;
+      padding: 20px;
+      text-align: center;
+    }
 
     .team-background{
      background-color: #222222;
@@ -446,7 +451,10 @@ margin: 60px auto;
         text-align: left;
       }
      
-      
+      .titeleses{
+        margin-left: 0px auto;
+        
+      }
  
 
       .frist-banner-box{ 
@@ -496,6 +504,14 @@ margin: 60px auto;
       }
       .header-banner-image{
         margin-top: 50px;
+      }
+      .Habits-titles{
+        font-size: 32px;
+        font-weight: bold;
+        margin-left: 0px;
+      }
+      .Habits-texts{
+        margin-left: 0px;
       }
 
       .habits-images{
